@@ -1,0 +1,34 @@
+{
+  "name": "guild-audits-flash-loans-workshop",
+  "version": "1.0.0",
+  "description": "JohnnyTime Flash Loan Workshop for Guild Audits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flash-loans-1": "npx hardhat test test/flash-loans-1/tests.js",
+    "flash-loans-2": "npx hardhat test test/flash-loans-2/tests.js",
+    "flash-loans-3": "npx hardhat test test/flash-loans-3/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealJohnnyTime/guild-audits-flash-loans-workshop.git"
+  },
+  "keywords": [
+    "Flash",
+    "Loans"
+  ],
+  "author": "JohnnyTime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealJohnnyTime/guild-audits-flash-loans-workshop/issues"
+  },
+  "homepage": "https://github.com/RealJohnnyTime/guild-audits-flash-loans-workshop#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
